@@ -1,0 +1,150 @@
+MANUAL VIM 
+
+
+
+i                   modo insertar
+
+esc                 salir modo insertar
+
+:w                  salvar un fichero
+
+:wq                 GUARDAR Y SALIR   MUY IMPORTANTE
+
+:q                  salir                forzoso  :q!
+
+u                   deshacer            
+
+w                   para ir una palabra adelante
+
+b                   para ir una palalabra para atras
+
+e                   para ir una palabra al final.
+
+x                   borrar caracter sobre el que estas
+
+p                   pegar una linea debajo del cursor.
+
+P                   Pegar una linea encima del cursor.
+
+:w                  GUARDAR ARCHIVO MUY IMPORTANTE 
+
+xp                  cambiar dos letras una por otra
+
+r                   reemplazar.
+
+s                   sustituir.
+
+o                   abrir linea abajo.
+
+O                   abrir linea arriba.
+
+a                   añadir despues.
+
+A                   añadir al final de la linea.
+
+I                   i mayuscula añadir al principio de la linea.
+
+i                   insertar.
+
+d                   borrar   dw  borrar una palabra  dd   borrar la linea.
+
+ddp                 corta y pega una linea. 
+
+D                   borrar hasta el final de la linea.
+
+c                   cambiar  cw cambio una palabra por otra.    cc   cambiar la linea entera.
+
+cc                  cambiar la linea entera.
+
+yw                  copia una palabra.
+
+yyp                 copia y pega una linea.
+
+$                   para ir al final de la linea.
+
+-                   Para ir al principio de la linea.-(guion alto).
+
+(                   Para moverse entre frases(entre puntos).
+
+{                   Para moverse entre parrafos.
+
+%                   para ir a otro caracter igual.
+
+.                   .  borrar lo ultimo   por ejemplo ....  borra 4 lineas   
+
+f                   buscar un caracter en la linea donde estamos.
+
+:w                  guardar archivo    muy importante.
+
+S                   borra la linea entera.
+
+3dd                 borra 3 lineas   12dd  borra 12 lineas etc..
+
+3,7s/nuevo/viejo/gc     Sustituye nuevo por viejo entre las lineas 3 y 7.y pide
+confirmacion.                   
+
+/                   para buscar hacia adelante.
+
+?                   para buscar hacia atrás.
+
+*                   busca la palabra sobre la que estoy.hacia adelante. 
+
+#                   busca la palabra sobre la que estoy hacia atras.
+
+V                   Modo visual raton para seleccionar.
+
+H                   LLeva el cursor al principio de la pantalla.
+
+M                   Leva el cursor a la mitad de la pantalla.
+
+L                   LLeva el cursor al final de la pantalla.
+
+v                   Modo visual 
+
+muy importante para unir lineas divididas  usar l a la derecha se iran copiando los caracteres y luego usar   dp  borrar y pegar donde queramos.
+
+
+
+
+Ctrlv               seleccionar columnas.
+
+gg                  ir al principio.
+
+G                   ir al final.
+
+ggvG=               alinear todo. 
+
+CTRL+F          	Scrollea una pantalla completa hacia adelanta (F de Forward).
+
+CTRL+B          	Scrollea una pantalla completa hacia atrás (B de Backward).
+
+CTRL+E          	Scrollea la pantalla en una sóla línea hacia arriba.
+
+CTRL+Y          	Scrollea la pantalla en una sóla línea hacia abajo.
+
+CTRL+U           	Scrollea media pantalla de texto hacia abajo (el equivalente a hacer medio RePág).
+
+Puede sonar raro el hecho de scrollear medias pantallas, pero en determinadas situaciones puede ser útil (si no queremos perder de vista texto ya leído cuando avanzamos, por ejemplo).
+
+CTRL+D 	Scrollea media pantalla de texto hacia arriba (como hacer medio AvPág).
+
+zz     Sin modificar la posición actual del cursor, modifica la ventana de visualización del fichero de forma que la línea actual acabe centrada en pantalla y podamos ver el contexto.
+
+Por ejemplo, supongamos que estamos en la parte de abajo de la pantalla con el cursor en la última línea y necesitamos ver con facilidad y claridad qué líneas hay sobre y bajo ella.
+
+En otros editores usaríamos la tecla de Abajo hasta centrar un poco la línea en pantalla y luego subiríamos hacia arriba para volver a la línea en que estábamos.
+
+En Vim basta con pulsar zz para centrar la línea actual en pantalla sin mover la posición del cursor para nada.
+
+zt      Igual que zz pero posicionando la línea en la parte superior de la
+pantalla (t viene de top) lo que nos permite ver con claridad la línea actual y
+muchas líneas posteriores.
+
+zb 	Igual que zt, pero posicionando la línea en la última posición de la ventana de pantalla, lo que nos permite ver la línea actual y muchas líneas anteriores. En ambos 3 comandos no se modifica la posición del cursor en el documento, sólo la manera de verlo en pantalla. 
+gh gH    Activan el modo seleccion.
+
+R        activa el modo reemplazo.
+
+INS      desde el modo reemplazo y normal activa el modo de inserccion,desde este activa el modo reemplazo.
+
+
